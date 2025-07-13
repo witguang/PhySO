@@ -1,7 +1,6 @@
 # Requirements for PhySO
 # Install via conda : conda install --file requirements.txt
 
-pytorch >= 1.11.0
 sympy == 1.10.1
 matplotlib
 numpy <= 2.0.0
@@ -11,3 +10,5 @@ pip
 scikit-learn # For Feynman benchmark analysis script and for density in monitoring plots
 jupyterlab # For running the notebooks
 
+pygraphviz == 1.9 # Install via conda recommended (only useful for tree representation)
+pillow >= 9.0.1 # (only useful for getting image data of infix representation)
