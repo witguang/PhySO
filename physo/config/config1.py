@@ -73,8 +73,8 @@ priors_config  = [
                 # RELATIONSHIPS RELATED
                 ("NoUselessInversePrior"  , None),
                 ("PhysicalUnitsPrior", {"prob_eps": np.finfo(np.float32).eps}), # PHYSICALITY
-                ("NestedFunctions", {"functions":["exp",], "max_nesting" : 1}),
-                ("NestedFunctions", {"functions":["log",], "max_nesting" : 1}),
+                # ("NestedFunctions", {"functions":["exp",], "max_nesting" : 1}),
+                # ("NestedFunctions", {"functions":["log",], "max_nesting" : 1}),
                 ("NestedTrigonometryPrior", {"max_nesting" : 1}),
                 #("OccurrencesPrior", {"targets" : ["1",], "max" : [3,] }),
                  ]
